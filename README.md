@@ -48,6 +48,7 @@ URL of Hosted Application: http://ec2-34-203-238-215.compute-1.amazonaws.com/
 - Change PermitRootLogin from without-password to no
 - Temporalily change PasswordAuthentication from no to yes.
 - Append AllowUsers grader
+- sudo service ssh restart
 
 # Configure Firewall
 - sudo ufw default deny incoming
